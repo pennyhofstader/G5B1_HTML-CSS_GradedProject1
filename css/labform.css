@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.wrapper {
+    display: flex;
+    margin: 0;
+    gap: 20px;
+    justify-content: space-between;
+
+}
+
+.form-container {
+    display: flex;
+    width: 50%;
+}
+
+/* making the image fixed to the right */
+.image-container {
+
+    display: flex;
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    right: 0
+}
+
+img {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+
+ol li {
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 15px;
+}
+
+/* media queries */
+
+@media (max-width: 1000px) {
+
+    .wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .image-container {
+        position: static;
+        display: block;
+
+
+    }
+
+
+
+
+
+}
