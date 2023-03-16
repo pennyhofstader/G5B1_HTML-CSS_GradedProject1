@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .main-wrapper {
     margin: 0;
     padding: 0;
@@ -19,31 +24,13 @@
     position: absolute;
 }
 
+/* styling for form */
+
 .left {
     display: flex;
     width: 50%;
     height: 100%;
     margin-bottom: 5px;
-}
-
-input[type="time"] {
-    margin-bottom: 10px;
-    width: 100px;
-}
-
-input[type="date"] {
-
-    width: 100px;
-}
-
-.right {
-    display: flex;
-    width: 30%;
-    height: 78vh;
-    position: fixed;
-    right: 0;
-    margin-right: 16%;
-
 }
 
 
@@ -71,6 +58,30 @@ input:focus {
     outline: none;
 }
 
+input[type="time"] {
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+input[type="date"] {
+
+    width: 100px;
+}
+
+/* styling for image and buttons */
+
+.right {
+    display: flex;
+    width: 30%;
+    height: 78vh;
+    position: fixed;
+    right: 0;
+    margin-right: 16%;
+
+}
+
+
+
 img {
 
     height: 100%;
@@ -95,6 +106,7 @@ img {
     font-weight: bold;
     background-color: rgb(193, 144, 238);
     border: 2px solid rgb(150, 77, 218);
+    cursor: pointer;
 }
 
 .form-btn:hover {
@@ -103,7 +115,7 @@ img {
 
 
 
-
+/* media queries */
 
 @media (max-width: 800px) {
 
